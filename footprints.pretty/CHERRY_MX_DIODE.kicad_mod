@@ -1,0 +1,10 @@
+(module CHERRY_MX_DIODE (layer F.Cu) (tedit 5A7CEB87)
+  (fp_text reference D6:6 (at 0 5.08) (layer F.SilkS)
+    (effects (font (size 1.524 1.524) (thickness 0.254)))
+  )
+  (fp_text value DIODE (at 0 7.239) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.254)))
+  )
+  (pad 1 thru_hole circle (at -3.81 5.08) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.SilkS *.Mask))
+  (pad 2 thru_hole rect (at 3.81 5.08) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.SilkS *.Mask))
+)

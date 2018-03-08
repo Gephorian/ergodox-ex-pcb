@@ -1,0 +1,1391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Adam\Desktop\Stuff\repos\ErgoDox_eXtended\ErgoDOX_eXtended\ErgoDOX_eXtended.sch</source>
+    <date>2/5/2018 9:42:58 AM</date>
+    <tool>Eeschema (2018-02-02 revision dc66b73a2)-makepkg</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ErgoDOX_eXtended.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="I2C_EXPANDER0">
+      <value>MCP23018</value>
+      <footprint>footprints:MCP23018</footprint>
+      <libsource lib="component" part="MCP23018"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB2FC64</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>4PIN</value>
+      <footprint>kicad-open-modules:SJ-43514-SMT</footprint>
+      <libsource lib="component" part="4PIN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC2A070</tstamp>
+    </comp>
+    <comp ref="SW6:1">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02740E</tstamp>
+    </comp>
+    <comp ref="D6:1">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02751F</tstamp>
+    </comp>
+    <comp ref="SW5:1">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_150H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02805A</tstamp>
+    </comp>
+    <comp ref="D5:1">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B028060</tstamp>
+    </comp>
+    <comp ref="SW4:1">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_150H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02813B</tstamp>
+    </comp>
+    <comp ref="D4:1">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B028141</tstamp>
+    </comp>
+    <comp ref="SW3:1">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_150H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B028822</tstamp>
+    </comp>
+    <comp ref="D3:1">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B028828</tstamp>
+    </comp>
+    <comp ref="SW2:1">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_150H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B028A35</tstamp>
+    </comp>
+    <comp ref="D2:1">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B028A3B</tstamp>
+    </comp>
+    <comp ref="SW1:1">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B028ECE</tstamp>
+    </comp>
+    <comp ref="D1:1">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B028ED4</tstamp>
+    </comp>
+    <comp ref="SW0:1">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B0292ED</tstamp>
+    </comp>
+    <comp ref="D0:1">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B0292F3</tstamp>
+    </comp>
+    <comp ref="SW6:2">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02B091</tstamp>
+    </comp>
+    <comp ref="D6:2">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02B097</tstamp>
+    </comp>
+    <comp ref="SW5:2">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02B0A1</tstamp>
+    </comp>
+    <comp ref="D5:2">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02B0A7</tstamp>
+    </comp>
+    <comp ref="SW4:2">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02B0B1</tstamp>
+    </comp>
+    <comp ref="D4:2">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02B0B7</tstamp>
+    </comp>
+    <comp ref="SW3:2">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02B0C1</tstamp>
+    </comp>
+    <comp ref="D3:2">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02B0C7</tstamp>
+    </comp>
+    <comp ref="SW2:2">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02B0D1</tstamp>
+    </comp>
+    <comp ref="D2:2">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02B0D7</tstamp>
+    </comp>
+    <comp ref="SW1:2">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02B0E1</tstamp>
+    </comp>
+    <comp ref="D1:2">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02B0E7</tstamp>
+    </comp>
+    <comp ref="SW0:2">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02B0F1</tstamp>
+    </comp>
+    <comp ref="D0:2">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02B0F7</tstamp>
+    </comp>
+    <comp ref="SW6:3">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02C0D7</tstamp>
+    </comp>
+    <comp ref="D6:3">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02C0DD</tstamp>
+    </comp>
+    <comp ref="SW5:3">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02C0E7</tstamp>
+    </comp>
+    <comp ref="D5:3">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02C0ED</tstamp>
+    </comp>
+    <comp ref="SW4:3">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02C0F7</tstamp>
+    </comp>
+    <comp ref="D4:3">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02C0FD</tstamp>
+    </comp>
+    <comp ref="SW3:3">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02C107</tstamp>
+    </comp>
+    <comp ref="D3:3">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02C10D</tstamp>
+    </comp>
+    <comp ref="SW2:3">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02C117</tstamp>
+    </comp>
+    <comp ref="D2:3">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02C11D</tstamp>
+    </comp>
+    <comp ref="SW1:3">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02C127</tstamp>
+    </comp>
+    <comp ref="D1:3">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02C12D</tstamp>
+    </comp>
+    <comp ref="SW0:3">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02C137</tstamp>
+    </comp>
+    <comp ref="D0:3">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02C13D</tstamp>
+    </comp>
+    <comp ref="SW6:4">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02DE60</tstamp>
+    </comp>
+    <comp ref="D6:4">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02DE66</tstamp>
+    </comp>
+    <comp ref="SW5:4">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02DE70</tstamp>
+    </comp>
+    <comp ref="D5:4">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02DE76</tstamp>
+    </comp>
+    <comp ref="SW4:4">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02DE80</tstamp>
+    </comp>
+    <comp ref="D4:4">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02DE86</tstamp>
+    </comp>
+    <comp ref="SW3:4">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02DE90</tstamp>
+    </comp>
+    <comp ref="D3:4">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02DE96</tstamp>
+    </comp>
+    <comp ref="SW2:4">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02DEA0</tstamp>
+    </comp>
+    <comp ref="D2:4">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02DEA6</tstamp>
+    </comp>
+    <comp ref="SW1:4">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02DEB0</tstamp>
+    </comp>
+    <comp ref="D1:4">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02DEB6</tstamp>
+    </comp>
+    <comp ref="SW0:4">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02DEC0</tstamp>
+    </comp>
+    <comp ref="D0:4">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B02DEC6</tstamp>
+    </comp>
+    <comp ref="SW6:5">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B030E34</tstamp>
+    </comp>
+    <comp ref="D6:5">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B030E3A</tstamp>
+    </comp>
+    <comp ref="SW5:5">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B030E44</tstamp>
+    </comp>
+    <comp ref="D5:5">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B030E4A</tstamp>
+    </comp>
+    <comp ref="SW4:5">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B030E54</tstamp>
+    </comp>
+    <comp ref="D4:5">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B030E5A</tstamp>
+    </comp>
+    <comp ref="SW3:5">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B030E64</tstamp>
+    </comp>
+    <comp ref="D3:5">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B030E6A</tstamp>
+    </comp>
+    <comp ref="SW2:5">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B030E74</tstamp>
+    </comp>
+    <comp ref="D2:5">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B030E7A</tstamp>
+    </comp>
+    <comp ref="SW1:5">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B030E84</tstamp>
+    </comp>
+    <comp ref="D1:5">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B030E8A</tstamp>
+    </comp>
+    <comp ref="SW0:5">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B030E94</tstamp>
+    </comp>
+    <comp ref="D0:5">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B030E9A</tstamp>
+    </comp>
+    <comp ref="SW6:6">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B03555B</tstamp>
+    </comp>
+    <comp ref="D6:6">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B035561</tstamp>
+    </comp>
+    <comp ref="SW5:6">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B03556B</tstamp>
+    </comp>
+    <comp ref="D5:6">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B035571</tstamp>
+    </comp>
+    <comp ref="SW4:6">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B03557B</tstamp>
+    </comp>
+    <comp ref="D4:6">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B035581</tstamp>
+    </comp>
+    <comp ref="SW3:6">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B03558B</tstamp>
+    </comp>
+    <comp ref="D3:6">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B035591</tstamp>
+    </comp>
+    <comp ref="SW2:6">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B03559B</tstamp>
+    </comp>
+    <comp ref="D2:6">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B0355A1</tstamp>
+    </comp>
+    <comp ref="SW1:6">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_200H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B0355AB</tstamp>
+    </comp>
+    <comp ref="D1:6">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B0355B1</tstamp>
+    </comp>
+    <comp ref="SW0:6">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B0355BB</tstamp>
+    </comp>
+    <comp ref="D0:6">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B0355C1</tstamp>
+    </comp>
+    <comp ref="SW6:7">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B03B851</tstamp>
+    </comp>
+    <comp ref="D6:7">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B03B857</tstamp>
+    </comp>
+    <comp ref="SW5:7">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B03B861</tstamp>
+    </comp>
+    <comp ref="D5:7">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B03B867</tstamp>
+    </comp>
+    <comp ref="SW4:7">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_150H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B03B871</tstamp>
+    </comp>
+    <comp ref="D4:7">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B03B877</tstamp>
+    </comp>
+    <comp ref="SW3:7">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_150H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B03B881</tstamp>
+    </comp>
+    <comp ref="D3:7">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B03B887</tstamp>
+    </comp>
+    <comp ref="SW2:7">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B03B891</tstamp>
+    </comp>
+    <comp ref="D2:7">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B03B897</tstamp>
+    </comp>
+    <comp ref="SW1:7">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B03B8A1</tstamp>
+    </comp>
+    <comp ref="D1:7">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B03B8A7</tstamp>
+    </comp>
+    <comp ref="SW0:7">
+      <value>SWITCH</value>
+      <footprint>footprints:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B03B8B1</tstamp>
+    </comp>
+    <comp ref="D0:7">
+      <value>DIODE</value>
+      <footprint>Keyboard:CHERRY_MX_DIODE</footprint>
+      <libsource lib="component" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B03B8B7</tstamp>
+    </comp>
+    <comp ref="Teensy2.0">
+      <value>Teensy2.0</value>
+      <footprint>Keyboard:TEENSY_2.0</footprint>
+      <libsource lib="teensy" part="Teensy2.0"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B15ED1B</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>R</value>
+      <footprint>footprint:RESISTOR</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B28DFAF</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>R</value>
+      <footprint>footprint:RESISTOR</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B28E118</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>4PIN</value>
+      <footprint>kicad-open-modules:SJ-43514-SMT</footprint>
+      <libsource lib="component" part="4PIN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6A32F8</tstamp>
+    </comp>
+    <comp ref="USB1">
+      <value>USB</value>
+      <footprint>Connectors:USB_Mini-B</footprint>
+      <libsource lib="component" part="USB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6D18DC</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>5PIN</value>
+      <footprint>footprints:5PIN</footprint>
+      <libsource lib="component" part="5PIN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8BD4A3</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="component" part="4PIN">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">4PIN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="power_in"/>
+        <pin num="3" name="3" type="output"/>
+        <pin num="4" name="4" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="component" part="5PIN">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">5PIN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspc"/>
+        <pin num="2" name="2" type="unspc"/>
+        <pin num="3" name="3" type="unspc"/>
+        <pin num="4" name="4" type="unspc"/>
+        <pin num="5" name="5" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="component" part="DIODE">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="component" part="MCP23018">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP23018</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="3" name="GPB0" type="output"/>
+        <pin num="4" name="GPB1" type="output"/>
+        <pin num="5" name="GPB2" type="output"/>
+        <pin num="6" name="GPB3" type="output"/>
+        <pin num="7" name="GPB4" type="output"/>
+        <pin num="8" name="GPB5" type="output"/>
+        <pin num="9" name="GPB6" type="output"/>
+        <pin num="10" name="GPB7" type="input"/>
+        <pin num="11" name="VCC" type="power_in"/>
+        <pin num="12" name="SCL" type="input"/>
+        <pin num="13" name="SDA" type="input"/>
+        <pin num="14" name="NC" type="NotConnected"/>
+        <pin num="15" name="ADDR" type="output"/>
+        <pin num="16" name="RESET" type="input"/>
+        <pin num="17" name="NC" type="NotConnected"/>
+        <pin num="18" name="INTB" type="input"/>
+        <pin num="19" name="INTA" type="input"/>
+        <pin num="20" name="GPA0" type="input"/>
+        <pin num="21" name="GPA1" type="input"/>
+        <pin num="22" name="GPA2" type="input"/>
+        <pin num="23" name="GPA3" type="input"/>
+        <pin num="24" name="GPA4" type="input"/>
+        <pin num="25" name="GPA5" type="input"/>
+        <pin num="26" name="GPA6" type="input"/>
+        <pin num="27" name="GPA7" type="input"/>
+        <pin num="28" name="NC" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="switches" part="SW_SPST">
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="teensy" part="Teensy2.0">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Teensy2.0</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="0" type="BiDi"/>
+        <pin num="3" name="1" type="BiDi"/>
+        <pin num="4" name="2" type="BiDi"/>
+        <pin num="5" name="3" type="BiDi"/>
+        <pin num="6" name="4_PWM" type="BiDi"/>
+        <pin num="7" name="5_INT0_PWM" type="BiDi"/>
+        <pin num="8" name="6_INT1" type="BiDi"/>
+        <pin num="9" name="7_INT2_RX" type="BiDi"/>
+        <pin num="10" name="8_INT3_TX" type="BiDi"/>
+        <pin num="11" name="9_PWM" type="BiDi"/>
+        <pin num="12" name="10_PWM" type="BiDi"/>
+        <pin num="13" name="23" type="BiDi"/>
+        <pin num="14" name="+5V" type="power_in"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="RST" type="input"/>
+        <pin num="17" name="22_A11" type="BiDi"/>
+        <pin num="18" name="11_A10_LED" type="BiDi"/>
+        <pin num="19" name="12_A9_PWM" type="BiDi"/>
+        <pin num="20" name="13_A8" type="BiDi"/>
+        <pin num="21" name="14_A7_PWM" type="BiDi"/>
+        <pin num="22" name="15_A6_PWM" type="BiDi"/>
+        <pin num="23" name="16_A5" type="BiDi"/>
+        <pin num="24" name="17_A4" type="BiDi"/>
+        <pin num="25" name="18_A3" type="BiDi"/>
+        <pin num="26" name="19_A2" type="BiDi"/>
+        <pin num="27" name="20_A1" type="BiDi"/>
+        <pin num="28" name="21_A0" type="BiDi"/>
+        <pin num="29" name="+5V" type="power_in"/>
+        <pin num="30" name="24" type="BiDi"/>
+        <pin num="31" name="AREF" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="component" part="USB">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="input"/>
+        <pin num="2" name="D-" type="input"/>
+        <pin num="3" name="D+" type="input"/>
+        <pin num="4" name="SHIELD" type="input"/>
+        <pin num="5" name="GND" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="component">
+      <uri>C:\Users\Adam\Desktop\Stuff\repos\ErgoDox_eXtended\ErgoDOX_eXtended/component.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/device.lib</uri>
+    </library>
+    <library logical="switches">
+      <uri>C:\Program Files\KiCad\share\kicad\library/switches.lib</uri>
+    </library>
+    <library logical="teensy">
+      <uri>C:\Users\Adam\Desktop\Stuff\repos\ErgoDox_eXtended\ErgoDOX_eXtended/teensy.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D2:7-Pad1)">
+      <node ref="SW2:7" pin="2"/>
+      <node ref="D2:7" pin="1"/>
+    </net>
+    <net code="2" name="Net-(D1:7-Pad1)">
+      <node ref="D1:7" pin="1"/>
+      <node ref="SW1:7" pin="2"/>
+    </net>
+    <net code="3" name="Net-(D0:7-Pad1)">
+      <node ref="D0:7" pin="1"/>
+      <node ref="SW0:7" pin="2"/>
+    </net>
+    <net code="4" name="Net-(D5:7-Pad1)">
+      <node ref="D5:7" pin="1"/>
+      <node ref="SW5:7" pin="2"/>
+    </net>
+    <net code="5" name="Net-(D4:7-Pad1)">
+      <node ref="SW4:7" pin="2"/>
+      <node ref="D4:7" pin="1"/>
+    </net>
+    <net code="6" name="Net-(D3:7-Pad1)">
+      <node ref="SW3:7" pin="2"/>
+      <node ref="D3:7" pin="1"/>
+    </net>
+    <net code="7" name="Net-(D5:6-Pad1)">
+      <node ref="SW5:6" pin="2"/>
+      <node ref="D5:6" pin="1"/>
+    </net>
+    <net code="8" name="Net-(D4:6-Pad1)">
+      <node ref="D4:6" pin="1"/>
+      <node ref="SW4:6" pin="2"/>
+    </net>
+    <net code="9" name="Net-(D3:6-Pad1)">
+      <node ref="SW3:6" pin="2"/>
+      <node ref="D3:6" pin="1"/>
+    </net>
+    <net code="10" name="Net-(D0:5-Pad1)">
+      <node ref="D0:5" pin="1"/>
+      <node ref="SW0:5" pin="2"/>
+    </net>
+    <net code="11" name="Net-(D6:6-Pad1)">
+      <node ref="SW6:6" pin="2"/>
+      <node ref="D6:6" pin="1"/>
+    </net>
+    <net code="12" name="Net-(D0:6-Pad1)">
+      <node ref="SW0:6" pin="2"/>
+      <node ref="D0:6" pin="1"/>
+    </net>
+    <net code="13" name="Net-(D6:7-Pad1)">
+      <node ref="SW6:7" pin="2"/>
+      <node ref="D6:7" pin="1"/>
+    </net>
+    <net code="14" name="Net-(D2:6-Pad1)">
+      <node ref="SW2:6" pin="2"/>
+      <node ref="D2:6" pin="1"/>
+    </net>
+    <net code="15" name="Net-(D1:6-Pad1)">
+      <node ref="SW1:6" pin="2"/>
+      <node ref="D1:6" pin="1"/>
+    </net>
+    <net code="16" name="Net-(Teensy2.0-Pad19)">
+      <node ref="Teensy2.0" pin="19"/>
+    </net>
+    <net code="17" name="VCC">
+      <node ref="R1" pin="2"/>
+      <node ref="I2C_EXPANDER0" pin="11"/>
+      <node ref="I2C_EXPANDER0" pin="16"/>
+      <node ref="R2" pin="1"/>
+      <node ref="Teensy2.0" pin="29"/>
+      <node ref="J5" pin="1"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="18" name="GND">
+      <node ref="J4" pin="4"/>
+      <node ref="J5" pin="4"/>
+      <node ref="Teensy2.0" pin="1"/>
+      <node ref="I2C_EXPANDER0" pin="1"/>
+      <node ref="I2C_EXPANDER0" pin="15"/>
+    </net>
+    <net code="19" name="Net-(Teensy2.0-Pad13)">
+      <node ref="Teensy2.0" pin="13"/>
+    </net>
+    <net code="20" name="Col0">
+      <node ref="I2C_EXPANDER0" pin="26"/>
+      <node ref="D1:1" pin="2"/>
+      <node ref="D0:1" pin="2"/>
+      <node ref="D3:1" pin="2"/>
+      <node ref="Teensy2.0" pin="8"/>
+      <node ref="D6:1" pin="2"/>
+      <node ref="D4:1" pin="2"/>
+      <node ref="D5:1" pin="2"/>
+      <node ref="D2:1" pin="2"/>
+    </net>
+    <net code="21" name="SCL">
+      <node ref="R1" pin="1"/>
+      <node ref="J4" pin="3"/>
+      <node ref="I2C_EXPANDER0" pin="12"/>
+      <node ref="J5" pin="3"/>
+      <node ref="Teensy2.0" pin="9"/>
+    </net>
+    <net code="22" name="SDA">
+      <node ref="R2" pin="2"/>
+      <node ref="Teensy2.0" pin="10"/>
+      <node ref="J5" pin="2"/>
+      <node ref="I2C_EXPANDER0" pin="13"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="23" name="Net-(Teensy2.0-Pad20)">
+      <node ref="Teensy2.0" pin="20"/>
+    </net>
+    <net code="24" name="Net-(Teensy2.0-Pad30)">
+      <node ref="Teensy2.0" pin="30"/>
+    </net>
+    <net code="25" name="Net-(Teensy2.0-Pad11)">
+      <node ref="Teensy2.0" pin="11"/>
+    </net>
+    <net code="26" name="Net-(Teensy2.0-Pad21)">
+      <node ref="Teensy2.0" pin="21"/>
+    </net>
+    <net code="27" name="Net-(Teensy2.0-Pad31)">
+      <node ref="Teensy2.0" pin="31"/>
+    </net>
+    <net code="28" name="Net-(Teensy2.0-Pad12)">
+      <node ref="Teensy2.0" pin="12"/>
+    </net>
+    <net code="29" name="Net-(Teensy2.0-Pad14)">
+      <node ref="Teensy2.0" pin="14"/>
+    </net>
+    <net code="30" name="Net-(Teensy2.0-Pad15)">
+      <node ref="Teensy2.0" pin="15"/>
+    </net>
+    <net code="31" name="Net-(Teensy2.0-Pad16)">
+      <node ref="Teensy2.0" pin="16"/>
+    </net>
+    <net code="32" name="Net-(Teensy2.0-Pad17)">
+      <node ref="Teensy2.0" pin="17"/>
+    </net>
+    <net code="33" name="Net-(Teensy2.0-Pad18)">
+      <node ref="Teensy2.0" pin="18"/>
+    </net>
+    <net code="34" name="Net-(U2-Pad5)">
+      <node ref="USB1" pin="1"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="35" name="Net-(U2-Pad4)">
+      <node ref="USB1" pin="2"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="36" name="Net-(U2-Pad3)">
+      <node ref="USB1" pin="3"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="37" name="Net-(U2-Pad2)">
+      <node ref="USB1" pin="4"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="38" name="Net-(U2-Pad1)">
+      <node ref="USB1" pin="5"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="39" name="Col1">
+      <node ref="Teensy2.0" pin="7"/>
+      <node ref="D6:2" pin="2"/>
+      <node ref="D3:2" pin="2"/>
+      <node ref="D1:2" pin="2"/>
+      <node ref="D2:2" pin="2"/>
+      <node ref="D0:2" pin="2"/>
+      <node ref="I2C_EXPANDER0" pin="25"/>
+      <node ref="D4:2" pin="2"/>
+      <node ref="D5:2" pin="2"/>
+    </net>
+    <net code="40" name="Col6">
+      <node ref="D1:7" pin="2"/>
+      <node ref="D2:7" pin="2"/>
+      <node ref="D5:7" pin="2"/>
+      <node ref="Teensy2.0" pin="2"/>
+      <node ref="I2C_EXPANDER0" pin="20"/>
+      <node ref="D6:7" pin="2"/>
+      <node ref="D3:7" pin="2"/>
+      <node ref="D4:7" pin="2"/>
+      <node ref="D0:7" pin="2"/>
+    </net>
+    <net code="41" name="Col5">
+      <node ref="D6:6" pin="2"/>
+      <node ref="D0:6" pin="2"/>
+      <node ref="D3:6" pin="2"/>
+      <node ref="D4:6" pin="2"/>
+      <node ref="D5:6" pin="2"/>
+      <node ref="Teensy2.0" pin="3"/>
+      <node ref="D2:6" pin="2"/>
+      <node ref="D1:6" pin="2"/>
+      <node ref="I2C_EXPANDER0" pin="21"/>
+    </net>
+    <net code="42" name="Col4">
+      <node ref="Teensy2.0" pin="4"/>
+      <node ref="D1:5" pin="2"/>
+      <node ref="D4:5" pin="2"/>
+      <node ref="D3:5" pin="2"/>
+      <node ref="D2:5" pin="2"/>
+      <node ref="I2C_EXPANDER0" pin="22"/>
+      <node ref="D5:5" pin="2"/>
+      <node ref="D6:5" pin="2"/>
+      <node ref="D0:5" pin="2"/>
+    </net>
+    <net code="43" name="Col3">
+      <node ref="I2C_EXPANDER0" pin="23"/>
+      <node ref="Teensy2.0" pin="5"/>
+      <node ref="D6:4" pin="2"/>
+      <node ref="D1:4" pin="2"/>
+      <node ref="D4:4" pin="2"/>
+      <node ref="D2:4" pin="2"/>
+      <node ref="D5:4" pin="2"/>
+      <node ref="D0:4" pin="2"/>
+      <node ref="D3:4" pin="2"/>
+    </net>
+    <net code="44" name="Col2">
+      <node ref="I2C_EXPANDER0" pin="24"/>
+      <node ref="D2:3" pin="2"/>
+      <node ref="Teensy2.0" pin="6"/>
+      <node ref="D3:3" pin="2"/>
+      <node ref="D5:3" pin="2"/>
+      <node ref="D6:3" pin="2"/>
+      <node ref="D4:3" pin="2"/>
+      <node ref="D0:3" pin="2"/>
+      <node ref="D1:3" pin="2"/>
+    </net>
+    <net code="45" name="Net-(D0:1-Pad1)">
+      <node ref="D0:1" pin="1"/>
+      <node ref="SW0:1" pin="2"/>
+    </net>
+    <net code="46" name="Net-(D6:2-Pad1)">
+      <node ref="D6:2" pin="1"/>
+      <node ref="SW6:2" pin="2"/>
+    </net>
+    <net code="47" name="Net-(D5:2-Pad1)">
+      <node ref="SW5:2" pin="2"/>
+      <node ref="D5:2" pin="1"/>
+    </net>
+    <net code="48" name="Net-(D2:1-Pad1)">
+      <node ref="SW2:1" pin="2"/>
+      <node ref="D2:1" pin="1"/>
+    </net>
+    <net code="49" name="Net-(D4:2-Pad1)">
+      <node ref="D4:2" pin="1"/>
+      <node ref="SW4:2" pin="2"/>
+    </net>
+    <net code="50" name="Net-(D1:1-Pad1)">
+      <node ref="D1:1" pin="1"/>
+      <node ref="SW1:1" pin="2"/>
+    </net>
+    <net code="51" name="Net-(D1:2-Pad1)">
+      <node ref="D1:2" pin="1"/>
+      <node ref="SW1:2" pin="2"/>
+    </net>
+    <net code="52" name="Net-(D0:2-Pad1)">
+      <node ref="SW0:2" pin="2"/>
+      <node ref="D0:2" pin="1"/>
+    </net>
+    <net code="53" name="Net-(D3:2-Pad1)">
+      <node ref="D3:2" pin="1"/>
+      <node ref="SW3:2" pin="2"/>
+    </net>
+    <net code="54" name="Net-(D2:2-Pad1)">
+      <node ref="SW2:2" pin="2"/>
+      <node ref="D2:2" pin="1"/>
+    </net>
+    <net code="55" name="Net-(I2C_EXPANDER0-Pad19)">
+      <node ref="I2C_EXPANDER0" pin="19"/>
+    </net>
+    <net code="56" name="Net-(I2C_EXPANDER0-Pad18)">
+      <node ref="I2C_EXPANDER0" pin="18"/>
+    </net>
+    <net code="57" name="Net-(I2C_EXPANDER0-Pad10)">
+      <node ref="I2C_EXPANDER0" pin="10"/>
+    </net>
+    <net code="58" name="Net-(I2C_EXPANDER0-Pad14)">
+      <node ref="I2C_EXPANDER0" pin="14"/>
+    </net>
+    <net code="59" name="Net-(I2C_EXPANDER0-Pad17)">
+      <node ref="I2C_EXPANDER0" pin="17"/>
+    </net>
+    <net code="60" name="Net-(I2C_EXPANDER0-Pad27)">
+      <node ref="I2C_EXPANDER0" pin="27"/>
+    </net>
+    <net code="61" name="Net-(I2C_EXPANDER0-Pad28)">
+      <node ref="I2C_EXPANDER0" pin="28"/>
+    </net>
+    <net code="62" name="Net-(D5:1-Pad1)">
+      <node ref="D5:1" pin="1"/>
+      <node ref="SW5:1" pin="2"/>
+    </net>
+    <net code="63" name="Net-(D4:1-Pad1)">
+      <node ref="D4:1" pin="1"/>
+      <node ref="SW4:1" pin="2"/>
+    </net>
+    <net code="64" name="Net-(D3:1-Pad1)">
+      <node ref="D3:1" pin="1"/>
+      <node ref="SW3:1" pin="2"/>
+    </net>
+    <net code="65" name="Net-(D6:1-Pad1)">
+      <node ref="SW6:1" pin="2"/>
+      <node ref="D6:1" pin="1"/>
+    </net>
+    <net code="66" name="Net-(D1:4-Pad1)">
+      <node ref="D1:4" pin="1"/>
+      <node ref="SW1:4" pin="2"/>
+    </net>
+    <net code="67" name="Net-(D0:4-Pad1)">
+      <node ref="SW0:4" pin="2"/>
+      <node ref="D0:4" pin="1"/>
+    </net>
+    <net code="68" name="Net-(D6:5-Pad1)">
+      <node ref="SW6:5" pin="2"/>
+      <node ref="D6:5" pin="1"/>
+    </net>
+    <net code="69" name="Net-(D2:4-Pad1)">
+      <node ref="D2:4" pin="1"/>
+      <node ref="SW2:4" pin="2"/>
+    </net>
+    <net code="70" name="Net-(D3:4-Pad1)">
+      <node ref="D3:4" pin="1"/>
+      <node ref="SW3:4" pin="2"/>
+    </net>
+    <net code="71" name="Net-(D3:5-Pad1)">
+      <node ref="SW3:5" pin="2"/>
+      <node ref="D3:5" pin="1"/>
+    </net>
+    <net code="72" name="Net-(D2:5-Pad1)">
+      <node ref="D2:5" pin="1"/>
+      <node ref="SW2:5" pin="2"/>
+    </net>
+    <net code="73" name="Net-(D1:5-Pad1)">
+      <node ref="D1:5" pin="1"/>
+      <node ref="SW1:5" pin="2"/>
+    </net>
+    <net code="74" name="Net-(D5:5-Pad1)">
+      <node ref="D5:5" pin="1"/>
+      <node ref="SW5:5" pin="2"/>
+    </net>
+    <net code="75" name="Row4">
+      <node ref="SW4:1" pin="1"/>
+      <node ref="SW4:5" pin="1"/>
+      <node ref="SW4:6" pin="1"/>
+      <node ref="SW4:3" pin="1"/>
+      <node ref="SW4:7" pin="1"/>
+      <node ref="SW4:4" pin="1"/>
+      <node ref="SW4:2" pin="1"/>
+      <node ref="Teensy2.0" pin="26"/>
+      <node ref="I2C_EXPANDER0" pin="7"/>
+    </net>
+    <net code="76" name="Net-(D4:5-Pad1)">
+      <node ref="D4:5" pin="1"/>
+      <node ref="SW4:5" pin="2"/>
+    </net>
+    <net code="77" name="Net-(D4:3-Pad1)">
+      <node ref="D4:3" pin="1"/>
+      <node ref="SW4:3" pin="2"/>
+    </net>
+    <net code="78" name="Row3">
+      <node ref="SW3:5" pin="1"/>
+      <node ref="SW3:3" pin="1"/>
+      <node ref="SW3:4" pin="1"/>
+      <node ref="SW3:1" pin="1"/>
+      <node ref="SW3:6" pin="1"/>
+      <node ref="SW3:7" pin="1"/>
+      <node ref="Teensy2.0" pin="25"/>
+      <node ref="SW3:2" pin="1"/>
+      <node ref="I2C_EXPANDER0" pin="6"/>
+    </net>
+    <net code="79" name="Net-(D3:3-Pad1)">
+      <node ref="D3:3" pin="1"/>
+      <node ref="SW3:3" pin="2"/>
+    </net>
+    <net code="80" name="Row2">
+      <node ref="SW2:3" pin="1"/>
+      <node ref="Teensy2.0" pin="24"/>
+      <node ref="SW2:4" pin="1"/>
+      <node ref="SW2:6" pin="1"/>
+      <node ref="SW2:5" pin="1"/>
+      <node ref="SW2:2" pin="1"/>
+      <node ref="SW2:7" pin="1"/>
+      <node ref="SW2:1" pin="1"/>
+      <node ref="I2C_EXPANDER0" pin="5"/>
+    </net>
+    <net code="81" name="Net-(D2:3-Pad1)">
+      <node ref="D2:3" pin="1"/>
+      <node ref="SW2:3" pin="2"/>
+    </net>
+    <net code="82" name="Row1">
+      <node ref="SW1:4" pin="1"/>
+      <node ref="SW1:6" pin="1"/>
+      <node ref="I2C_EXPANDER0" pin="4"/>
+      <node ref="SW1:3" pin="1"/>
+      <node ref="SW1:1" pin="1"/>
+      <node ref="SW1:5" pin="1"/>
+      <node ref="SW1:2" pin="1"/>
+      <node ref="Teensy2.0" pin="23"/>
+      <node ref="SW1:7" pin="1"/>
+    </net>
+    <net code="83" name="Net-(D1:3-Pad1)">
+      <node ref="D1:3" pin="1"/>
+      <node ref="SW1:3" pin="2"/>
+    </net>
+    <net code="84" name="Net-(D5:3-Pad1)">
+      <node ref="D5:3" pin="1"/>
+      <node ref="SW5:3" pin="2"/>
+    </net>
+    <net code="85" name="Row6">
+      <node ref="SW6:3" pin="1"/>
+      <node ref="SW6:4" pin="1"/>
+      <node ref="SW6:2" pin="1"/>
+      <node ref="SW6:1" pin="1"/>
+      <node ref="SW6:5" pin="1"/>
+      <node ref="Teensy2.0" pin="28"/>
+      <node ref="SW6:6" pin="1"/>
+      <node ref="I2C_EXPANDER0" pin="9"/>
+      <node ref="SW6:7" pin="1"/>
+    </net>
+    <net code="86" name="Net-(D6:3-Pad1)">
+      <node ref="D6:3" pin="1"/>
+      <node ref="SW6:3" pin="2"/>
+    </net>
+    <net code="87" name="Net-(D6:4-Pad1)">
+      <node ref="D6:4" pin="1"/>
+      <node ref="SW6:4" pin="2"/>
+    </net>
+    <net code="88" name="Row5">
+      <node ref="SW5:4" pin="1"/>
+      <node ref="SW5:7" pin="1"/>
+      <node ref="SW5:3" pin="1"/>
+      <node ref="SW5:2" pin="1"/>
+      <node ref="Teensy2.0" pin="27"/>
+      <node ref="SW5:1" pin="1"/>
+      <node ref="SW5:5" pin="1"/>
+      <node ref="I2C_EXPANDER0" pin="8"/>
+      <node ref="SW5:6" pin="1"/>
+    </net>
+    <net code="89" name="Net-(D5:4-Pad1)">
+      <node ref="SW5:4" pin="2"/>
+      <node ref="D5:4" pin="1"/>
+    </net>
+    <net code="90" name="Net-(D4:4-Pad1)">
+      <node ref="SW4:4" pin="2"/>
+      <node ref="D4:4" pin="1"/>
+    </net>
+    <net code="91" name="Row0">
+      <node ref="SW0:4" pin="1"/>
+      <node ref="I2C_EXPANDER0" pin="3"/>
+      <node ref="SW0:1" pin="1"/>
+      <node ref="SW0:2" pin="1"/>
+      <node ref="SW0:3" pin="1"/>
+      <node ref="SW0:5" pin="1"/>
+      <node ref="SW0:6" pin="1"/>
+      <node ref="SW0:7" pin="1"/>
+      <node ref="Teensy2.0" pin="22"/>
+    </net>
+    <net code="92" name="Net-(D0:3-Pad1)">
+      <node ref="D0:3" pin="1"/>
+      <node ref="SW0:3" pin="2"/>
+    </net>
+  </nets>
+</export>
